@@ -30,3 +30,40 @@ let myObj = {
 
  console.log(typeof anotherId);
  
+
+ //++++++++++++++++++++++++++++++++++++++
+
+ //Stack and Heap Memory
+ //Stack is used in primitive datatypes(isme hume copy milti hai)
+ //Heap is used in non primitive datatypes(isme reference hota hai matlab direct original me change hota hai)
+
+ //example for stack
+
+ let myname = "khushi"
+ let anothername = myname
+ anothername = "pragati"
+
+ console.log(anothername);
+ console.log(myname);
+
+ //example for heap
+
+ let userOne = {
+    email: "user@gmail.com",
+    upi: "user@ybl"
+ }
+
+ let userTwo = userOne
+ 
+ userTwo.email = "pragati@gmail.com"
+ console.log(userOne.email);
+ console.log(userTwo.email);
+ 
+
+
+
+
+
+
+
+ 
