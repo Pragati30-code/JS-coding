@@ -1,9 +1,9 @@
 const name = "khushi"
 const repoCount = 60
 
-//console.log(name + repoCount + "value");
+//console.log(name + repoCount + "value"); //don't use this type of string making
 
-//console.log(`Hello my name is ${name} and my repoCount is ${repoCount}`);
+//console.log(`Hello my name is ${name} and my repoCount is ${repoCount}`); //use this for string making
 
 
 const gameName = new String('Pragati-pp')
@@ -17,8 +17,15 @@ const gameName = new String('Pragati-pp')
 //console.log(gameName.charAt(2));
 //console.log(gameName.indexOf('t'));
 
-//const newString = gameName.substring(0,4)
+const newString = gameName.substring(0,4)
 //console.log(newString);
 
 const anotherString = gameName.slice(-9,4)
-console.log(anotherString);
+//console.log(anotherString);
+
+const newStringOne = "    pragati     "
+//console.log(newStringOne);
+//console.log(newStringOne.trim());
+
+console.log(gameName.split('-'));
+
